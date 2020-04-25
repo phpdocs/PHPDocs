@@ -1,4 +1,7 @@
-<?php require_once("select_helper.php"); ?>
+<?php 
+    require_once("session_verify.php");
+    require_once("select_helper.php");
+ ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
