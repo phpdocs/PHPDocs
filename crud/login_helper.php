@@ -23,6 +23,9 @@
                 $_SESSION['UserName']=$UserName;
                 $_SESSION['Auth']=true;
 
+                //Set the Cookie
+                setcookie("Auth",true,time()+21600);
+
                 //Redirect the user to Index Page
                 header("Location: index.php");
 

@@ -11,4 +11,8 @@
     //Redirect to Login Page
     header("Location: login.php");
 
+    //unset the cookie
+    setcookie("Auth",false,time());
+
+
 ?>
